@@ -1,0 +1,36 @@
+# N  = 65°N to 90°N
+# NM = 20°N to 65°N
+# E  = 20°S to 20°N
+# SM = 65°S to 20°S
+# S  = 90°S to 65°S
+#
+# ABL = 0-2km
+# T   = 2-8km
+# TS  = 8-16km
+# S   = 16-32km
+#
+# $1 = domain id
+# $2 = horizontal domain
+# $3 = vertical domain
+# $4 = number of parcels
+
+0 N ABL 500000
+1 N T 500000
+2 N TS 500000
+3 N S 500000
+4 NM ABL 500000
+5 NM T 500000
+6 NM TS 500000
+7 NM S 500000
+8 E ABL 500000
+9 E T 500000
+10 E TS 500000
+11 E S 500000
+12 SM ABL 500000
+13 SM T 500000
+14 SM TS 500000
+15 SM S 500000
+16 S ABL 500000
+17 S T 500000
+18 S TS 500000
+19 S S 500000
